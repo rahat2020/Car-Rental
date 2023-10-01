@@ -1,0 +1,36 @@
+.headers {
+    height: 86vh;
+}
+
+.headers .dubai {
+    background-color: #09A5CF;
+    color: #FFFFFF;
+    padding: 8px 20px;
+    border-radius: 5px 30px 5px 30px;
+}
+
+.headers .dubai {
+    animation: bgchage 5s linear infinite;
+}
+
+@keyframes bgchage { 
+    0%{
+        background-color: red;
+        transition: all 0.10s linear;
+    }
+    25%{
+        background-color: #0063f8;
+        transition: all 0.10s linear;
+        border-radius: 35px 10px 35px 10px;
+    }
+    50%{
+        background-color: #10b7e6;
+      
+    }
+    75%{
+        background-color: #0D6EFD;
+    }
+    100%{
+        background-color: #fa901e;
+    }
+}
